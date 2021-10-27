@@ -22,6 +22,14 @@ A command line employee tracker with a mysql db that let's you view various data
 ## Installation
 `npm i`
 
+Included is the schema.sql and seeds.sql which will create the db and tables and seed it with sample data if you choose to use it:
+
+`SOURCE schema.sql;` and/or `SOURCE seeds.sql;` in MySQL shell. 
+
+or use the files in MySQL workbench.
+
+.env.EXAMPLE is included to show the structure of what your local .env file should look like.
+
 ## Usage
 `node script.js`
 
