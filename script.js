@@ -384,10 +384,8 @@ async function updateManager() {
         ]);
         let managerId;
         if (manager === 'None') {
-            console.log(managerChoices);
             managerId = null;
         } else {
-            console.log(managerChoices);
             for (const data of res) {
                 data.fullName = `${data.first_name} ${data.last_name}`;
                 if (data.fullName === manager) {
